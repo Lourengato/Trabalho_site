@@ -1,0 +1,174 @@
+/* Color Theme Swatches in Hex
+.Color-Theme-2-1-hex { color: #9E9C90; }
+.Color-Theme-2-2-hex { color: #F2F2F2; }
+.Color-Theme-2-3-hex { color: #857B6E; }
+.Color-Theme-2-4-hex { color: #A5978C; }
+.Color-Theme-2-5-hex { color: #8EB3CA; }
+
+ Color Theme Swatches in RGBA 
+.Color-Theme-2-1-rgba { color: rgba(158, 156, 144, 1); }
+.Color-Theme-2-2-rgba { color: rgba(242, 242, 242, 1); }
+.Color-Theme-2-3-rgba { color: rgba(133, 123, 110, 1); }
+.Color-Theme-2-4-rgba { color: rgba(165, 151, 140, 1); }
+.Color-Theme-2-5-rgba { color: rgba(142, 179, 202, 1); }
+
+*/
+
+/*Formatação de toda a página*/
+*{margin: 0; padding: 0;}
+/*Formatação da tag "body" (corpo)*/
+body{
+	background-color: #F2F2F2;;
+	font-style: "Trebuchet MS";
+	background-image: url("bg.jpg");
+}
+/*Formatação da barra de navegação*/
+nav{
+  background:  #857B6E;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav ul li{
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+}
+
+nav ul li:hover {
+  background:#9E9C90;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 2em;
+}
+
+nav ul li a:hover{
+  color:  #fff;
+  text-decoration: none;
+}
+
+.banner{
+  width: 100%
+}
+
+/*div principal*/
+main{
+  align-content: center;
+  text-align: center;
+  padding: 5%;
+}
+/*título*/
+h1{
+  color:#8EB3CA;
+  font-size: 60px;
+}
+
+/*subtitulo*/
+h2{
+  color:#9E9C90;
+  font-size: 30px;
+}
+/*formulario*/
+.formulário{
+  align-content: center;
+  padding: 3em;
+  color: #A5978C;
+  font-size: 20px;
+  text-align: center;
+}
+
+.caixas{
+  align-content: center;
+  align-items: center;
+}
+
+/*rodapé*/
+.rodape{
+  width: 10%;
+  margin-top: 10px;
+}
+footer{
+  width: 100%;
+  height: 2em;
+  background: #A5978C;
+}
+
+/*tabela de div's*/
+.divTable{
+  margin-top: 20px;
+  display: grid;
+  grid-column-gap: 5%;
+  grid-row-gap: 2.5vw;
+  grid-template-columns: 20% 20% 20% 20%;
+  float: left;
+}
+.divTable a div{
+  height: 22vw;
+  background-color: #857B6E;
+  padding: 1vw;
+  border: 0.1vw solid #333;
+  float: left;
+}
+.divTable a div:hover{
+  background-color: #9E9C90;
+  box-shadow: 1px 1px 5px #333;
+}
+.divTable a div img{
+  width: 80%;
+  margin: 10%;
+  float: left;
+}
+.divTable a div p{
+  font-size: 2.2vw;
+  font-family: "Arial";
+  color: #000;
+  text-align: center;
+}
+
+/*tabela de horários*/
+table tr td{
+  padding-left: 20px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-bottom: 0px;
+}
+.top{
+  border-top: 1px solid #dddddd;
+  background-color:#857B6E;
+}
+.topesq{
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  background-color: #857B6E;
+}
+.topdir{
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  background-color: #857B6E;
+}
+.topbaiesq{
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+  background-color: #857B6E;
+}
+.borda{
+  border: 1px solid #dddddd;
+}
+.color{
+    background-color: #857B6E;
+}
+td, th{
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+#horario{
+  padding-bottom: 20px;
+}
